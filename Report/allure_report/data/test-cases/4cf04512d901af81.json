@@ -1,0 +1,169 @@
+{
+  "uid" : "4cf04512d901af81",
+  "name" : "Test login with incorrect login credentials -- @1.1 Credentials",
+  "fullName" : "Facebook login functionality: Test login with incorrect login credentials",
+  "historyId" : "7a661aec351ffa5409a20acea3223dbb",
+  "time" : {
+    "start" : 1678031566746,
+    "stop" : 1678031567523,
+    "duration" : 777
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "When user input wrong email id \"anshul123.io\" and password \"anshul\"",
+      "time" : {
+        "start" : 1678031567515,
+        "stop" : 1678031567523,
+        "duration" : 8
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fd028ab00d6e4b3d",
+        "name" : ".text",
+        "source" : "fd028ab00d6e4b3d.txt",
+        "type" : "text/plain",
+        "size" : 126
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then Error message will come",
+      "time" : {
+        "start" : 1678031567523,
+        "stop" : 1678031567523,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eed75c008e3f2615",
+        "name" : ".table",
+        "source" : "eed75c008e3f2615.csv",
+        "type" : "text/csv",
+        "size" : 76
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "logincase"
+  }, {
+    "name" : "feature",
+    "value" : "Facebook login functionality"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login_id",
+    "value" : "anshul123.io"
+  }, {
+    "name" : "password",
+    "value" : "anshul"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3d01d1a1e139c907",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1678031489558,
+        "stop" : 1678031490214,
+        "duration" : 656
+      }
+    }, {
+      "uid" : "e34b6e0ed6fa0716",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1678031425188,
+        "stop" : 1678031425909,
+        "duration" : 721
+      }
+    }, {
+      "uid" : "507d8eb5ac4b23ae",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1678031267713,
+        "stop" : 1678031268430,
+        "duration" : 717
+      }
+    }, {
+      "uid" : "4f2b418444427ac4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1678031133314,
+        "stop" : 1678031134195,
+        "duration" : 881
+      }
+    }, {
+      "uid" : "4ab052ade4a87cc5",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1678029774346,
+        "stop" : 1678029775241,
+        "duration" : 895
+      }
+    }, {
+      "uid" : "51a5c01b1b64a059",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1678029673978,
+        "stop" : 1678029674699,
+        "duration" : 721
+      }
+    }, {
+      "uid" : "d191a5a97ab716b1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1678029591508,
+        "stop" : 1678029592267,
+        "duration" : 759
+      }
+    }, {
+      "uid" : "21868b4ea05a24c2",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1678029501337,
+        "stop" : 1678029502352,
+        "duration" : 1015
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "logincase" ]
+  },
+  "source" : "4cf04512d901af81.json",
+  "parameterValues" : [ "anshul123.io", "anshul" ]
+}

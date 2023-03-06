@@ -1,0 +1,103 @@
+{
+  "uid" : "d191a5a97ab716b1",
+  "name" : "Test login with incorrect login credentials -- @1.1 Credentials",
+  "fullName" : "Facebook login functionality: Test login with incorrect login credentials",
+  "historyId" : "7a661aec351ffa5409a20acea3223dbb",
+  "time" : {
+    "start" : 1678029591508,
+    "stop" : 1678029592267,
+    "duration" : 759
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "When user input wrong email id \"anshul123.io\" and password \"anshul\"",
+      "time" : {
+        "start" : 1678029592265,
+        "stop" : 1678029592266,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "93fac712fe468abd",
+        "name" : ".text",
+        "source" : "93fac712fe468abd.txt",
+        "type" : "text/plain",
+        "size" : 126
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then Error message will come",
+      "time" : {
+        "start" : 1678029592266,
+        "stop" : 1678029592267,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6665035cf8968acc",
+        "name" : ".table",
+        "source" : "6665035cf8968acc.csv",
+        "type" : "text/csv",
+        "size" : 76
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "logincase"
+  }, {
+    "name" : "feature",
+    "value" : "Facebook login functionality"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "login_id",
+    "value" : "anshul123.io"
+  }, {
+    "name" : "password",
+    "value" : "anshul"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "logincase" ]
+  },
+  "source" : "d191a5a97ab716b1.json",
+  "parameterValues" : [ "anshul123.io", "anshul" ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "4cf04512d901af81",
+  "name" : "Test login with incorrect login credentials -- @1.1 Credentials",
+  "time" : {
+    "start" : 1678031566746,
+    "stop" : 1678031567523,
+    "duration" : 777
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e9a4755ab86bff2b",
+  "name" : "Test login with incorrect login credentials -- @1.2 Credentials",
+  "time" : {
+    "start" : 1678031567523,
+    "stop" : 1678031567817,
+    "duration" : 294
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

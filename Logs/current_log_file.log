@@ -1,0 +1,64 @@
+05/03/2023 11:00:22 PM: INFO: SeleniumHelper: open_page: Opening page: http://3.76.37.119/login
+05/03/2023 11:00:23 PM: INFO: SeleniumHelper: insert_text_in_input_field: Entering text: anshul123.io in locator: //input[@name='username']
+05/03/2023 11:00:23 PM: INFO: SeleniumHelper: insert_text_in_input_field: Entering text: anshul in locator: //input[@name='password']
+05/03/2023 11:00:23 PM: INFO: SeleniumHelper: click: Clicking on: //button[@value='Login']
+05/03/2023 11:00:23 PM: ERROR: login_steps: step_impl: Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@value='Login']"}
+  (Session info: chrome=110.0.5481.100)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x002737D3]
+	(No symbol) [0x00208B81]
+	(No symbol) [0x0010B36D]
+	(No symbol) [0x0013D382]
+	(No symbol) [0x0013D4BB]
+	(No symbol) [0x00173302]
+	(No symbol) [0x0015B464]
+	(No symbol) [0x00171215]
+	(No symbol) [0x0015B216]
+	(No symbol) [0x00130D97]
+	(No symbol) [0x0013253D]
+	GetHandleVerifier [0x004EABF2+2510930]
+	GetHandleVerifier [0x00518EC1+2700065]
+	GetHandleVerifier [0x0051C86C+2714828]
+	GetHandleVerifier [0x00323480+645344]
+	(No symbol) [0x00210FD2]
+	(No symbol) [0x00216C68]
+	(No symbol) [0x00216D4B]
+	(No symbol) [0x00220D6B]
+	BaseThreadInitThunk [0x75B600F9+25]
+	RtlGetAppContainerNamedObjectPath [0x777B7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x777B7B8E+238]
+	(No symbol) [0x00000000]
+
+05/03/2023 11:00:27 PM: INFO: SeleniumHelper: open_page: Opening page: http://3.76.37.119/login
+05/03/2023 11:00:27 PM: INFO: SeleniumHelper: insert_text_in_input_field: Entering text: anshul12345.io in locator: //input[@name='username']
+05/03/2023 11:00:27 PM: INFO: SeleniumHelper: insert_text_in_input_field: Entering text: rahul in locator: //input[@name='password']
+05/03/2023 11:00:27 PM: INFO: SeleniumHelper: click: Clicking on: //button[@value='Login']
+05/03/2023 11:00:27 PM: ERROR: login_steps: step_impl: Exception occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@value='Login']"}
+  (Session info: chrome=110.0.5481.100)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x002737D3]
+	(No symbol) [0x00208B81]
+	(No symbol) [0x0010B36D]
+	(No symbol) [0x0013D382]
+	(No symbol) [0x0013D4BB]
+	(No symbol) [0x00173302]
+	(No symbol) [0x0015B464]
+	(No symbol) [0x00171215]
+	(No symbol) [0x0015B216]
+	(No symbol) [0x00130D97]
+	(No symbol) [0x0013253D]
+	GetHandleVerifier [0x004EABF2+2510930]
+	GetHandleVerifier [0x00518EC1+2700065]
+	GetHandleVerifier [0x0051C86C+2714828]
+	GetHandleVerifier [0x00323480+645344]
+	(No symbol) [0x00210FD2]
+	(No symbol) [0x00216C68]
+	(No symbol) [0x00216D4B]
+	(No symbol) [0x00220D6B]
+	BaseThreadInitThunk [0x75B600F9+25]
+	RtlGetAppContainerNamedObjectPath [0x777B7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x777B7B8E+238]
+	(No symbol) [0x00000000]
+
